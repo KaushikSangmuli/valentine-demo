@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+  <div class="display">
    <div class="initial">
-    <input id="enterName" placeholder=" Enter Your name"> 
+    <input id="enterName" placeholder=" Enter Your name..."> 
     <button id="submit"> Submit </button>
    </div> 
 
@@ -20,9 +20,37 @@
    </div>
 
    <div class="afterchoice">
-    <p id="selectChocolate" class="selectChoco"> <img src="https://img.freepik.com/free-vector/hand-drawn-world-chocolate-day-illustration-with-chocolate-bar-muffin_23-2149429538.jpg?w=740&t=st=1707898606~exp=1707899206~hmac=64578cde49f606f8af437438076ecaa1d92c0d3aa04c4887a24495065802766d" class="cadbury"> I know you will select</p>
+
+    <div id="mychoc" class="mychoc">
+    <p id="selectChocolate" class="selectChoco">  I know you will select</p>
+    <img id="chocImg" src="chocolate 22.jpg" alt="">
+    </div>
+
+    <div id="myflow" class="myflow">
     <p id="selectFlower" class="selectFlow"> Umm.. dont you like the chocolates.</p>
-   </div>
+    <img src="flower.jpg" id="flowImg" alt="flowes">
+</div>
+    </div>
+
+    <div id="outing" class="outing">
+        <p id="outingQ" class="outingQ"> I selected a perfect date of your choice</p>
+        <div id="outingOpt" class="outingOpt">
+            <div id="pub" class="pub">
+                pub
+            </div>
+            <div id="longdrive" class="longdrive">
+                Longdrive
+            </div>
+            <div id="cafe" class="cafe">
+                cafe
+            </div>
+
+        </div>
+
+    </div>
+
+ </div>
+
     <script src="script.js"></script>
 </body>
 </html>
