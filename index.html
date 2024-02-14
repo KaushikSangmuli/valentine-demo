@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="welcome"> </div>
+
+   <div class="initial">
+    <input id="enterName" placeholder=" Enter Your name"> 
+    <button id="submit"> Submit </button>
+   </div> 
+
+   <div class="hidden greet"> Hello user, Very glad to see you here</div>
+   
+   <div class="choices">
+    <button id="chocolate" class="choco"> Chocolate </button>
+    <button id="flower" class="flow" > Flowers </button>
+   </div>
+
+   <div class="afterchoice">
+    <p id="selectChocolate" class="selectChoco"> <img src="https://img.freepik.com/free-vector/hand-drawn-world-chocolate-day-illustration-with-chocolate-bar-muffin_23-2149429538.jpg?w=740&t=st=1707898606~exp=1707899206~hmac=64578cde49f606f8af437438076ecaa1d92c0d3aa04c4887a24495065802766d" class="cadbury"> I know you will select</p>
+    <p id="selectFlower" class="selectFlow"> Umm.. dont you like the chocolates.</p>
+   </div>
     <script src="script.js"></script>
 </body>
 </html>
