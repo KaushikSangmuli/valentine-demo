@@ -18,7 +18,6 @@ let chocolate = document.querySelector("#chocolate");
 let flower = document.querySelector("#flower");
 let chocoImg = document.querySelector ("#mychoc");
 let  flowImg =document.querySelector ("#myflow")
-
 let outingQ = document.querySelector ("#outingQ")
 let wantque = document.querySelector("#want")
 let wantbox = document.querySelector("#wantbox")
