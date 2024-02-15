@@ -18,12 +18,14 @@ let  flowImg =document.querySelector ("#myflow")
 
 let outingQ = document.querySelector ("#outingQ")
 let wantque = document.querySelector("#want")
+let wantbox = document.querySelector("#wantbox")
 
 chocolate.addEventListener ( "click", ()=>{
     chocoImg.classList.remove("hidden")
     flower.classList.add("hidden")
     chocolate.classList.add("hidden")
     outingQ.classList.remove("hidden")
+    wantbox.classList.remove("hidden")
     wantque.classList.remove("hidden")
 })
 flower.addEventListener ( "click" , () =>{
@@ -31,6 +33,7 @@ flower.addEventListener ( "click" , () =>{
     flower.classList.add("hidden")
     chocolate.classList.add("hidden")
     outingQ.classList.remove("hidden")
+    wantbox.classList.remove("hidden")
     wantque.classList.remove("hidden")
 } )
 let outing = document.querySelector("#outing")
