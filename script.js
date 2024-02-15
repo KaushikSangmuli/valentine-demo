@@ -21,6 +21,7 @@ let  flowImg =document.querySelector ("#myflow")
 let outingQ = document.querySelector ("#outingQ")
 let wantque = document.querySelector("#want")
 let wantbox = document.querySelector("#wantbox")
+let come = document.querySelector("#come")
 
  chocolate.addEventListener ( "click", ()=>{
     chocoImg.classList.remove("hidden")
@@ -29,6 +30,7 @@ let wantbox = document.querySelector("#wantbox")
     outingQ.classList.remove("hidden")
     wantbox.classList.remove("hidden")
     wantque.classList.remove("hidden")
+    come.classList.remove("hidden")
 })
 flower.addEventListener ( "click" , () =>{
     flowImg.classList.remove ("hidden")
@@ -37,11 +39,33 @@ flower.addEventListener ( "click" , () =>{
     outingQ.classList.remove("hidden")
     wantbox.classList.remove("hidden")
     wantque.classList.remove("hidden")
+   
 } )
+
 let outing = document.querySelector("#outing")
 wantque.addEventListener ("click", () =>{
     outing.classList.remove("hidden")
-
-
+    come.classList.remove("hidden")
 })
+
+let pub = document.querySelector("#pubImg");
+let longdrive = document.querySelector("#longdriveImg");
+let beach = document.querySelector("#beachImg");
+let final = document.querySelector("#final");
+
+
+pub.addEventListener ( "click" , () =>{
+ final.classList.remove("hidden")
+})
+
+longdrive.addEventListener ( "click" , () =>{
+    final.classList.remove("hidden")
+    console.log("hello ji")
+})
+
+beach.addEventListener ( "click" , () =>{
+    final.classList.remove("hidden")
+ })
+   
+
 
