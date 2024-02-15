@@ -9,6 +9,7 @@ submit.addEventListener ( "click" , ()=>{
      greet.classList.remove("hidden")
      choices.classList.remove("hidden")
      console.log(hername)
+     
 }
 )
 let chocolate = document.querySelector("#chocolate");
@@ -20,7 +21,7 @@ let outingQ = document.querySelector ("#outingQ")
 let wantque = document.querySelector("#want")
 let wantbox = document.querySelector("#wantbox")
 
-chocolate.addEventListener ( "click", ()=>{
+ chocolate.addEventListener ( "click", ()=>{
     chocoImg.classList.remove("hidden")
     flower.classList.add("hidden")
     chocolate.classList.add("hidden")
