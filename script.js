@@ -1,12 +1,14 @@
 let body= document.querySelector("body")
 let inputs = document.querySelector("#enterName");
 let greet = document.querySelector(".greet");
+let greet2 = document.querySelector(".greet2");
 let submit = document.querySelector("#submit")
 let choices = document.querySelector(".choices")
 submit.addEventListener ( "click" , ()=>{
     let hername = inputs.value;
-     greet.innerText= " hello " + hername + ", I am glad you came here"
+     greet.innerText= " hey " + hername + ", didn't catch  your name, i would call you HONEY, but you are much sweeter than that..."
      greet.classList.remove("hidden")
+     greet2.classList.remove("hidden")
      choices.classList.remove("hidden")
      console.log(hername)
      
